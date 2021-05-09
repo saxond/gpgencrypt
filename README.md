@@ -26,4 +26,7 @@ This example works on MacOs.  On Linux you can use [`xclip`](https://ostechnix.c
 
  * [MacOS](../../releases/latest/download/gpgencrypt-darwin-amd64.tar.gz)
 
+  * [Windows](../../releases/latest/download/gpgencrypt-windows-amd64.tar.gz)
+
+
 On MacOS, open the download archive, ctrl-click `gpgencrypt` and open the application to accept running the application.  You can then use it from the command line.
