@@ -47,10 +47,10 @@ func main() {
 }
 
 func printHelp() {
-	fmt.Println("Usage:\n")
-	fmt.Println("Encrypt a file using a public keyfile on disk:")
-	fmt.Println("\tgpgencrypt public-keyfile file-to-encrypt\n")
-	fmt.Println("Encrypt a file using a public keyfile from the clipboard (mac example):")
+	fmt.Println("Usage:")
+	fmt.Println("\nEncrypt a file using a public keyfile on disk:")
+	fmt.Println("\tgpgencrypt public-keyfile file-to-encrypt")
+	fmt.Println("\nEncrypt a file using a public keyfile from the clipboard (mac example):")
 	fmt.Println("\tpbpaste | gpgencrypt file-to-encrypt")
 }
 
