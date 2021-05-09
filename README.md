@@ -13,7 +13,7 @@ To encrypt a file using a public keyfile from the clipboard, run
 
 	pbpaste | gpgencrypt file-to-encrypt
 
-This example works on MacOs.  On Linux you can use [`xclip`](https://ostechnix.com/how-to-use-pbcopy-and-pbpaste-commands-on-linux/)
+This example works on MacOs.  On Linux you can use [`xclip`](https://ostechnix.com/how-to-use-pbcopy-and-pbpaste-commands-on-linux/).
 
 ## Building
 
