@@ -23,3 +23,10 @@ jobs:
             name: 'gpgencrypt'
             compress: 'true'
             dest: 'dist'
+                  # step 3: Copy build-artifacts in the GitHub release
+      - name: Copy build-artifacts
+        uses: skx/github-action-publish-binaries@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          args: "./dist/*.tar.gz"
