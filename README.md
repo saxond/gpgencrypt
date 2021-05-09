@@ -22,8 +22,8 @@ This example works on MacOs.  On Linux you can use [`xclip`](https://ostechnix.c
 
 ## Download
 
- * [Linux amd64](releases/latest/download/gpgencrypt-linux-amd64.tar.gz)
+ * [Linux amd64](../../releases/latest/download/gpgencrypt-linux-amd64.tar.gz)
 
- * [MacOS](releases/latest/download/gpgencrypt-darwin-amd64.tar.gz)
+ * [MacOS](../../releases/latest/download/gpgencrypt-darwin-amd64.tar.gz)
 
 On MacOS, open the download archive, ctrl-click `gpgencrypt` and open the application to accept running the application.  You can then use it from the command line.
