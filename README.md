@@ -1,7 +1,7 @@
 
 ## gpgencrypt
 
-This is simple command line application that encrypts a file using a PGP public key.
+This is a simple command line application that encrypts a file using a PGP public key.
 
 ## Usage
 
