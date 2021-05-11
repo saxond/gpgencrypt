@@ -31,8 +31,6 @@ func main() {
 		return
 	}
 
-	fmt.Println(recipient.Identities)
-
 	f, err := os.Open(fileToEnc)
 	if err != nil {
 		fmt.Println(err)
@@ -44,6 +42,10 @@ func main() {
 	encrypt([]*openpgp.Entity{recipient}, nil, f, buf)
 
 	fmt.Println(buf)
+
+	for _, identity := range recipient.Identities {
+		fmt.Printf("Recipient: %s\n", identity.Name)
+	}
 }
 
 func printHelp() {
