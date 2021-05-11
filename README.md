@@ -17,7 +17,6 @@ This example works on MacOs.  On Linux you can use [`xclip`](https://ostechnix.c
 
 ## Building
 
-    go mod download golang.org/x/crypto
     go build
 
 ## Download
